@@ -18,7 +18,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@earnkeeper/ekp-sdk": "0.2.15",
-    "@earnkeeper/ekp-sdk-nestjs": "2.0.1",
+    "@earnkeeper/ekp-sdk-nestjs": "2.0.2",
     "@nestjs/schedule": "^1.1.0",
     "@nestjs/typeorm": "^8.0.3",
     "axios-https-proxy-fix": "^0.17.1",
