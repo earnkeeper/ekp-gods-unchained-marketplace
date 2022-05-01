@@ -5,5 +5,6 @@
   "github": "https://github.com/earnkeeper/ekp-gods-unchained-marketplace",
   "image": "/static/market.jpg",
   "mainPage": "market",
-  "description": "Want the latest pricing, easy filtering and sorting for the Immutable Market? We have it here"
+  "description": "Want the latest pricing, easy filtering and sorting for the Immutable Market? We have it here",
+  "features": ["Enhanced Marketplace"]
 }
