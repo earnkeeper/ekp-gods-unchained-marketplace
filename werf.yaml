@@ -1,0 +1,6 @@
+configVersion: 1
+project: gods-unchained-marketplace
+---
+image: app
+dockerfile: Dockerfile
+context: .
