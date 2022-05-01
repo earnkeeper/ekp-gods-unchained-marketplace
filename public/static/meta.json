@@ -3,7 +3,7 @@
   "gameId": "gods-unchained",
   "name": "Marketplace",
   "github": "https://github.com/earnkeeper/ekp-gods-unchained-marketplace",
-  "image": "/static/market.jpeg",
+  "image": "/static/market.jpg",
   "mainPage": "market",
   "description": "Want the latest pricing, easy filtering and sorting for the Immutable Market? We have it here"
 }
