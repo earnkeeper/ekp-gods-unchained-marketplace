@@ -33,11 +33,7 @@ spec:
             - name: DB_PASSWORD
               value: '{{ .Values.postgresql.auth.password }}'
             - name: REDIS_HOST
-              value: '{{ .Values.redis.host }}'
-            - name: REDIS_PASSWORD
-              value: '{{ .Values.redis.password }}'
-            - name: REDIS_DB
-              value: '{{ .Values.redis.db }}'
+              value: '{{ .Release.Name }}-redis-master'
             - name: NODE_ENV
               value: '{{ .Values.werf.env | default "production" }}'
             - name: PROXY_HOST
