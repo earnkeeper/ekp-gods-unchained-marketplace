@@ -27,7 +27,7 @@ spec:
             - name: DB_HOST
               value: '{{ .Values.postgresql.host }}'
             - name: DB_NAME
-              value: '{{ .Values.postgresql.auth.database }}'
+              value: '{{ eq .Values.werf.env "staging" | ternary .Values.postgresql.auth.database.staging .Values.postgresql.auth.database._default }}'
             - name: DB_USER
               value: '{{ .Values.postgresql.auth.username }}'
             - name: DB_PASSWORD
